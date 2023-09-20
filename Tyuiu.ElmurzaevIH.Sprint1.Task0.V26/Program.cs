@@ -14,7 +14,7 @@ namespace Tyuiu.ElmurzaevIH.Sprint1.Task0.V26
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #0 | Выполнил: Ельмурзаев И.Х. | ИИПб-23-1";
+            Console.Title = "Спринт #1 | Выполнил: Ельмурзаев И.Х. | ИИПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы C#                                          *");
@@ -32,7 +32,7 @@ namespace Tyuiu.ElmurzaevIH.Sprint1.Task0.V26
 
             Console.WriteLine(ds.Calculate());
 
-
+            Console.ReadKey();
         }
     }
 }
