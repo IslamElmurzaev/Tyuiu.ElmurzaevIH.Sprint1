@@ -12,7 +12,8 @@ namespace Tyuiu.ElmurzaevIH.Sprint1.Task4.V6.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Abs(Math.Pow(y, 2) - x) / (x * y);
+            var res = Math.Abs(Math.Pow(y, 2) - x) / (x * y);
+            return Math.Round(res, 3);
         }
     }
 }
